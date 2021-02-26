@@ -13,13 +13,14 @@ body{background: #E5E5E5;}
     margin: auto;
 
     /* PARA QUE NO SE PUEDA HACER MENOS ANCHA LA PÁGINA.
-        ES LA SUMA DE LOS DIVS DEL CONTENIDO. */
-    min-width: 880px;
+        ES LA SUMA DE LOS DIVS DEL CONTENIDO, además de un espacio extra vacío.
+     */
+    min-width: 1000px;
     /* min-height: min-content; */
     
 }
 
-.izquierda{
+.izquierda {
     width: 20%;
     min-height: 800px;
     min-width: 200px;
