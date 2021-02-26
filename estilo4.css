@@ -11,6 +11,11 @@ body{background: #E5E5E5;}
 
     /* PARA QUE SE CENTRE. */
     margin: auto;
+
+    /* PARA QUE NO SE PUEDA HACER MENOS ANCHA LA PÁGINA.
+        ES LA SUMA DE LOS DIVS DEL CONTENIDO. */
+    min-width: 880px;
+    min-height: none;
     
 }
 
@@ -110,7 +115,13 @@ body{background: #E5E5E5;}
 
 .derecha2 {
     background-color: white;
-    padding: 50px;
+    /* padding: 50px;
+    */
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+
     /* PARA QUE SE ACOMODEN EN LA MISMA LÍNEA */
     display: flex;
     flex-wrap: nowrap;
@@ -127,7 +138,8 @@ body{background: #E5E5E5;}
 }
 
 .derechatarjeta {
-    margin: 0px;
+    margin-left: 100px;
+    margin-right: 80px;
     padding: 0px;
     float: left;
 }
