@@ -5,6 +5,8 @@ body{background: #E5E5E5;}
 .contenedor {
     display: flex;
     flex-wrap: nowrap;
+    /* PARA QUE SE CENTRE. */
+    margin: auto;
     
 }
 
@@ -15,6 +17,25 @@ body{background: #E5E5E5;}
     float: left;  
     margin-top: 0px;  
     padding-top: 0px;  
+}
+
+.izquierda p {
+
+    /* ROBOTO ES LA FUENTE DEL NÚMERO.
+        La encontré en fonts.google.com escribiendo el número "1" en el apartado
+        en donde dice "sentence" */
+    font-family: 'Roboto';
+    font-weight: normal; /* 400px */
+    text-align: right;
+    margin-right: 50px;
+
+    /* NO SE QUIERE PONER HASTA ARRIBA EL NÚMERO. CREO QUE ES POR LA FUENTE. */
+    margin-top: 0px;
+    /* margin-bottom: 0px; */
+    padding-top: 0px;
+    font-size: 159px;
+    /* color: #9c9a9a; */
+    color: #d8d8d8;
 }
 
 /* EL CONTENEDOR PARA EL "Frames" y lo de abajo: "Custom Sizes". */
@@ -54,30 +75,12 @@ body{background: #E5E5E5;}
    text-justify: inter-word;
 }
 
-.izquierda p {
-
-    /* ROBOTO ES LA FUENTE DEL NÚMERO.
-        La encontré en fonts.google.com escribiendo el número "1" en el apartado
-        en donde dice "sentence" */
-    font-family: 'Roboto';
-    font-weight: normal; /* 400px */
-    text-align: right;
-    margin-right: 50px;
-
-    /* NO SE QUIERE PONER HASTA ARRIBA EL NÚMERO. CREO QUE ES POR LA FUENTE. */
-    margin-top: 0px;
-    /* margin-bottom: 0px; */
-    padding-top: 0px;
-    font-size: 125px;
-    /* color: #9c9a9a; */
-    color: #d8d8d8;
-}
-
 .titulo {
     font-family: 'Roboto';
-    font-weight: 900; /** BLACK */
+    /* font-weight: 900; * BLACK */
+    font-weight: 700; /** Bold */
     color: black;
-    font-size: 38px;
+    font-size: 50px;
     margin-top: 0px;
 }
 
