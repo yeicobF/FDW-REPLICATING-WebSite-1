@@ -126,29 +126,39 @@ body{background: #E5E5E5;}
     display: flex;
     flex-wrap: nowrap;
     margin-top: 60px;
+
+    font-family: 'Roboto';
 }
 
 .izquierdatarjeta {
     float: left;
     padding-top: 15px;
     /* PARA QUE SE PONGA CADA ELEMENTO DEBAJO DEL OTRO. */
-    display: grid;
+    /* display: grid; */
 
 }
 .subtitulo {
     /* margin: 0px; */
-    float: left;
+    /* float: left; */
     margin: 0px;
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
     font-weight: 900;
     font-size: x-large;
 }
 
+.subtitulo2 {
+    /* CREO QUE LA FUENTE DE ESTE NO ES Roboto. */
+    margin: 0px;
+    font-weight: 900;
+    font-size: medium;
+}
+
 .textochico {
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
     font-size: small;
     font-weight: 400;
     line-height: 1.5;
+    margin: 0px;
 }
 
 .derechatarjeta {
