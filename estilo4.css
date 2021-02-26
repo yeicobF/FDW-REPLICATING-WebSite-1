@@ -72,6 +72,14 @@ body{background: #E5E5E5;}
     - inter-character	Increases/Decreases the space between characters
     */
    text-align: justify;
+
+   /* text-justify solo funciona con: Enable Experimental Web Platform Features
+   preference (needs to be set to Enabled). To change preferences in Chrome:
+   type in "chrome://flags" in the Chrome browser. To change preferences in
+   Opera: type in "flags" in the Opera browser.
+   
+        - EN CHROME.
+   */
    text-justify: inter-word;
 }
 
@@ -82,11 +90,12 @@ body{background: #E5E5E5;}
     color: black;
     font-size: 50px;
     margin-top: 0px;
+    margin-bottom: 45px;
 }
 
 .derecha1 {
     /* PUSE ESTE PADDING PARA QUE QUEDE ALINEADO CON EL 1. */
-    padding-top: 18px;
+    padding-top: 26px;
     margin-top: 0px;
     float: left;
     /* ESPACIO ENTRE ESTE Y EL OTRO CON LA IMAGEN. */
