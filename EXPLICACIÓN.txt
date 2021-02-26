@@ -1,0 +1,11 @@
+Clase del [Jueves, 25 FEB 2021]
+
+- Nos ayudó a hacer un ejercicio en el que replicaíamos un sitio web a partir de
+una imagen que nos pasó.
+
+HERRAMIENTAS QUE UTILIZÓ:
+    - imagecolorpicker.com: Para subir una imagen y nos diga qué colores tiene
+        al dar click a una parte de la imagen.
+    - FastStone Photo Resizer: App de escritorio para cambiar dimensiones y peso
+        de alguna imagen. Mientras menos pesen más rápido cargará la página, y
+        ayudará al posicionamiento del sitio web con el SEO.

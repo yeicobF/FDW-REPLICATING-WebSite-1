@@ -1,0 +1,48 @@
+body{background: #E5E5E5;}
+
+.arriba{width: 100%; height: 100px;}
+
+.contenedor {
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.izquierda{
+    width: 20%;
+    min-height: 800px;
+    min-width: 200px;
+    float: left;  
+    margin-top: 0px;  
+    padding-top: 0px;  
+}
+
+.izquierda p {
+
+    /* ROBOTO ES LA FUENTE DEL NÚMERO.
+        La encontré en fonts.google.com escribiendo el número "1" en el apartado
+        en donde dice "sentence" */
+    font-family: 'Roboto';
+    font-weight: normal; /* 400px */
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    font-size: 100px;
+    color: #9c9a9a;
+}
+
+.titulo {
+    font-family: 'Roboto';
+    font-weight: 900; /** BLACK */
+    color: black;
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+.derecha1 {
+    padding-top: 0px;
+    margin-top: 0px;
+    float: left;
+}
